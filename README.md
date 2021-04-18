@@ -27,8 +27,6 @@
 
 ### 1 - Crie um back-end para conexão simultânea de clientes e troca de mensagens em chat público.
 
-#### ⚠️ &nbsp; DICA: Para desenvolver esse requisito não é necessário se conectar ao banco de dados.
-
 - Sua aplicação deve ser inicializada no arquivo `server.js`;
 
 - Seu back-end deve permitir que vários clientes se conectem simultaneamente;
@@ -61,10 +59,6 @@
 ---
 
 ### 2 - Crie um frontend para que as pessoas interajam com o chat.
-
-#### ⚠️ &nbsp; DICA: Para desenvolver esse requisito não é necessário se conectar ao banco de dados.
-
-#### ⚠️ &nbsp; DICA: Para facilitar armazenar e/ou recuperar o _nickname_ do cliente, lembre-se de usar o _localStorage_.
 
 - O front-end e o back-end têm que usar a mesma porta - `localhost:3000`;
 
@@ -106,12 +100,6 @@
 
 ### 3 - Elabore o histórico do chat para que as mensagens persistam.
 
-#### ⚠️ &nbsp; DICA: Para desenvolver esse requisito é estritamente necessário se conectar ao banco de dados.
-
-#### ⚠️ &nbsp; DICA: Uma boa forma de renderizar o histórico de mensagens via HTML é usando uma template engine _(exemplo: EJS)_.
-
-#### ⚠️ &nbsp; DICA: Lembre-se de aplicar a arquitetura MVC.
-
 - Você deve configurar o banco de dados `webchat` com uma coleção chamada `messages`, em que cada documento representa uma mensagem;
 
 - O seu banco de dados deve salvar o _nickname_ de quem enviou a mensagem, a mensagem em si e uma _timestamp_ com precisão de segundos de quando ela foi salva no banco;
@@ -139,8 +127,6 @@
 
 ### 4 - Informe a todos os clientes quem está online no momento.
 
-#### ⚠️ &nbsp; DICA: Para desenvolver esse requisito não é necessário se conectar ao banco de dados.
-
 - No front-end deve haver uma lista na tela de cada cliente que mostra quais clientes estão _online_ em um dado momento. Um cliente é identificado pelo seu _nickname_.
   - O elemento com o nome do cliente deve conter o `data-testid="online-user"`;
   - Quando um cliente se conecta, a lista de clientes deve ser atualizada para todos:
@@ -162,31 +148,5 @@
 ```
 
 ---
-
-## Dicas
-
-:star: Tomar decisões de projeto em prol do bom desenvolvimento faz parte do projeto! Interprete os requisitos, tome suas decisões e, em caso de dúvidas, valide-as conosco no _Slack_!
-
----
-
-# Depois de terminar o desenvolvimento (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-06`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
 
 \#VQV 🚀

@@ -1,23 +1,24 @@
+# Bem vindo ao projeto WebChat:
+
+ Este projeto nasceu como uma forma avaliativa do curso da [Trybe](https://www.betrybe.com)!
+
+- Para rodar esse projeto:
+  - Faça um clone do projeto no seu repositório local.
+  - Rode o comando ```npm install``` para instalar as dependências necessária 
+
+- Se quiser faça um fork do projeto para acrescentar novas funcionalidades.
+
+---
+
 # Sumário
 
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Lista de Requisitos](#lista-de-requisitos)
-    `Requisitos Obrigatórios`
     - [1 - Crie um back-end para conexão simultaneamente de clientes e troca de mensagens em chat público](#1---crie-um-back-end-para-conexão-simultânea-de-clientes-e-troca-de-mensagens-em-chat-público)
     - [2 - Crie um frontend para que as pessoas interajam com o chat](#2---crie-um-frontend-para-que-as-pessoas-interajam-com-o-chat)
     - [3 - Elabore o histórico do chat para que as mensagens persistam](#3---elabore-o-histórico-do-chat-para-que-as-mensagens-persistam)
     - [4 - Informe a todos os clientes quem está online no momento](#4---informe-a-todos-os-clientes-quem-está-online-no-momento)
 - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-
----
-
-### 👀 Observações importantes:
-
-- Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
-
-  - Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos.
-
-- Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
 
 ---
 
